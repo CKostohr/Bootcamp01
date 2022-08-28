@@ -1,13 +1,14 @@
+/* This is the area for HTML */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Body is used for whole webpage. */
 body {
     background-color: #d9dcd6;
 }
-
+/* Everything in the header class will have these color, font, and size */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,11 +42,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* End header links */
 
-p {
-    font-size: 16px;
-}
-
+/* This is the picture of people having a meeting. */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,6 +54,12 @@ p {
     background-position: center;
 }
 
+/* p does the font and size of a paragrah. */
+p {
+    font-size: 16px;
+}
+
+/* Here is where the links go to. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,7 +75,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* End of link section */
+/* This is the right side of the webpage */
 .benefits {
     margin-right: 20px;
     padding: 20px;
